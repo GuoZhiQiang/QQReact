@@ -1,5 +1,6 @@
 # macOS
 .DS_Store
+*/.DS_Store
 
 # Xcode
 build/
@@ -35,3 +36,4 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 Pods/
+Podfile.lock
