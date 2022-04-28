@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import <React/RCTBridgeDelegate.h>
 
-@interface QQViewController : UIViewController
+@interface QQViewController : UIViewController <RCTBridgeDelegate>
 
 @end
